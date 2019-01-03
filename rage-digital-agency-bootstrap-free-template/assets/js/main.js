@@ -213,9 +213,9 @@ jQuery(document).ready(function ($) {
             en: "Language"
         },
         "Jobs": {
-            cat: "Dissenyador industrial / Arquitecte",
-            es: "Diseñador industrial / Arquitecto",
-            en: "Industrial designer / Architect"
+            cat: "Dissenyador industrial / Arquitecte / Paisatgista",
+            es: "Diseñador industrial / Arquitecto / Paisagista",
+            en: "Industrial designer / Architect / Landscape architect"
         },
         "Description 1": {
             cat: "(Barcelona 1952) és arquitecte per l'ETSAB (Escola Tècnica Superior d'Arquitectura de Barcelona) (2004), dissenyador industrial per l'escola Elisava (1978) i Graduat Superior en Paisatgisme per l'ETSAB (2009).",
