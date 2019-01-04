@@ -796,7 +796,6 @@ Home Section style
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    height: 1008px;
 }
 .main_home{
     overflow: hidden;
