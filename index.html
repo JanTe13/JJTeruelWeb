@@ -68,13 +68,13 @@
                     <div class="attr-nav">
                         <ul>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                                <a class="dropdown-toggle" data-toggle="dropdown" >
                                     <i class="fa fa-language"></i>
                                 </a>
                                 <ul class="dropdown-menu cart-list">
-                                    <li id="cat"><h6><a href="#">Català</a></h6></li>
-                                    <li id="es"><h6><a href="#">Castellano</a></h6></li>
-                                    <li id="en"><h6><a href="#">English</a></h6></li>
+                                    <li id="cat"><h6><a>Català</a></h6></li>
+                                    <li id="es"><h6><a>Castellano</a></h6></li>
+                                    <li id="en"><h6><a>English</a></h6></li>
                                 </ul>
                             </li>
                         </ul>
@@ -118,41 +118,127 @@
             </section> <!--End off Home Sections-->
 
             <!--About Sections-->
-            <section id="about" class="about roomy-100">
+            <section id="about" class="about roomy-100" style="padding-bottom: 0">
                 <div class="container">
                     <div class="row">
                         <div class="main_about">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="assets/images/about.jpg" title="Josep J. Teruel i Samsó"/>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="assets/images/ub.jpg" height="200" width="200" title="Universitat de Barcelona"/>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="assets/images/bau.jpg" height="200" width="200" title="BAU"/>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="assets/images/assessor.png" title="Assessor acreditat"/>
+                            <div class="col-md-3">
+                                <div style="min-height: 62px"></div><!-- title 42px + separator 20px = 62px -->
+                                <img src="assets/images/about.jpg" class="center" title="Josep J. Teruel i Samsó"/>
+                            </div>
+                            <div class="col-md-4 about-container">
+                                <div class="head_title">
+                                    <h2 class="trn" style="text-transform: uppercase;">About</h2>
+                                    <div class="separator_left"></div>
+                                    <div class="justify line-height"><strong>Josep J. Teruel i Samsó</strong>
+                                        <span class="trn">Description 1</span><br/><br/>
+                                        <span class="trn">Description 2</span>
+                                        <div style="margin-top: 30px">
+                                            <i class="fa fa-envelope-o" style="margin-right: 10px"></i>josepjteruel@coac.cat
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class=" head_title about_content">
-                                    <h2 class="trn" style="text-transform: uppercase;">About</h2>
-                                    <div class="separator_left"></div>
-                                    <p><strong>Josep J. Teruel i Samsó</strong>
-                                        <span class="trn">Description 1</span><br/><br/>
-                                        <span class="trn">Description 2</span><br/><br/>
-                                        <span class="trn">Description 3</span>
-                                    </p>
+                            <div class="col-md-5">
+                                <div class="head_title">
+                                    <div style="min-height: 42px"></div>
+                                    <div class="separator_large" style="margin-left: 15px"></div>
+                                    <div class="justify secondary-text">
+                                        <!--<div class="col-md-12"><h4 class="secondary-title">Qualificacions</h4></div>-->
+                                        <div class="col-md-6">
+                                            <div class="qualifications">
+                                                <div><strong class="trn">Graduat Paisatgisme</strong></div>
+                                                <div class="trn">Escola Arq</div>
+                                                <div class="trn">Barcelona, 2009</div>
+                                            </div>
+                                            <div class="qualifications">
+                                                <div><strong class="trn">Arquitecte</strong></div>
+                                                <div class="trn">Escola Arq</div>
+                                                <div class="trn">Barcelona, 2004</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="qualifications">
+                                                <div><strong class="trn">DIndustrial</strong></div>
+                                                <div class="trn">Escola Elisava</div>
+                                                <div class="trn">Barcelona, 1978</div>
+                                            </div>
+                                            <div class="qualifications">
+                                                <div><strong class="trn">ArtsGraf</strong></div>
+                                                <div class="trn">Escola Arts</div>
+                                                <div class="trn">Barcelona, 1976</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-6" style="padding-left: 0"><h4 class="secondary-title trn">Prizes</h4></div>
+                                            <div class="col-md-6"><h4 class="secondary-title trn">Others</h4></div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="awards">
+                                                <div><strong class="trn">Iberdiseno</strong></div>
+                                                <div>Barcelona</div>
+                                            </div>
+                                            <div class="awards">
+                                                <div><strong class="trn">SIDI</strong></div>
+                                                <div class="trn">Valencia</div>
+                                            </div>
+                                            <div class="awards">
+                                                <div><strong class="trn">Delta</strong></div>
+                                                <div>Barcelona</div>
+                                            </div>
+                                            <div class="awards">
+                                                <div><strong class="trn">Marie-Claire</strong></div>
+                                                <div class="trn">Paris</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="qualifications">
+                                                <div><strong class="trn">Colegiat</strong><span class="trn">COAC</span></div>
+                                            </div>
+                                            <div class="qualifications">
+                                                <div><strong class="trn">Soci</strong><span class="trn">ADI-FAD</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div><!--End off row-->
+                    <!-- Client section-->
+                    <div class="row brand-row">
+                        <div class="main_cbrand text-center">
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="assets/images/clients/1.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="assets/images/clients/2.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img class="" src="assets/images/clients/5.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="assets/images/clients/4.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="assets/images/clients/3.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="cbrand_item m-bottom-10">
+                                    <a href=""><img src="assets/images/clients/1.jpg" alt="" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End off row -->
                 </div><!--End off container -->
             </section>
 
@@ -253,56 +339,6 @@
                     </div><!--End off row -->
                 </div><!--End off container -->
             </section><!-- End off Portfolio section-->
-
-            <!--client brand section-->
-            <section id="cbrand" class="cbrand">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_cbrand text-center roomy-100">
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="cbrand_item m-bottom-10">
-                                    <a href=""><img src="assets/images/clients/1.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="cbrand_item m-bottom-10">
-                                    <a href=""><img src="assets/images/clients/2.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="cbrand_item m-bottom-10">
-                                    <a href=""><img class="" src="assets/images/clients/5.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="cbrand_item m-bottom-10">
-                                    <a href=""><img src="assets/images/clients/4.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="cbrand_item m-bottom-10">
-                                    <a href=""><img src="assets/images/clients/3.jpg" alt="" /></a>
-                                </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-6">
-                                <div class="cbrand_item m-bottom-10">
-                                    <a href=""><img src="assets/images/clients/1.jpg" alt="" /></a> 
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off Cbrand section -->
-
-            <!--Maps Section-->
-            <!--<div class="main_maps text-center fix">-->
-                <!--<div class="overlay"></div>-->
-                <!--<div class="maps_text">-->
-                    <!--<h3 class="text-white" onclick="showmap()">FIND US ON THE MAP <i class="fa fa-angle-down"></i></h3>-->
-                    <!--<div id="map_canvas" class="mapheight"></div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!-- End off Maps Section-->
 
             <!--Contact Us Section-->
             <section id="contact" class="contact bg-mega fix">
