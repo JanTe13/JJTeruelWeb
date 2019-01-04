@@ -5,13 +5,6 @@
 
 jQuery(document).ready(function ($) {
 
-//for Preloader
-
-    $(window).load(function () {
-        $("#loading").fadeOut(500);
-    });
-
-
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
@@ -30,8 +23,6 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-
-
 
     /*---------------------------------------------*
      * WOW
@@ -190,7 +181,7 @@ jQuery(document).ready(function ($) {
         "Hello": {
             cat: "Inici",
             es: "Inicio",
-            en: "Hello"
+            en: "Home"
         },
         "Portfolio": {
             cat: "Projectes",
