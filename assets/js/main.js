@@ -319,15 +319,22 @@ jQuery(document).ready(function ($) {
 
     $('#en').click(function() {
         translator.lang("en");
+        hideLanguageDropdown();
     });
 
     $('#es').click(function() {
         translator.lang("es");
+        hideLanguageDropdown();
     });
 
     $('#cat').click(function() {
         translator.lang("cat");
+        hideLanguageDropdown();
     });
+
+    function hideLanguageDropdown() {
+        $(".dropdown-menu").stop().fadeOut();
+    }
 
     //End
 
