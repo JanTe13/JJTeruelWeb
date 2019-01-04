@@ -193,14 +193,9 @@ jQuery(document).ready(function ($) {
             en: "Hello"
         },
         "Portfolio": {
-            cat: "Productes",
-            es: "Productos",
-            en: "Products"
-        },
-        "About": {
-            cat: "Qui soc",
-            es: "Acerca de mi",
-            en: "About me"
+            cat: "Projectes",
+            es: "Proyectos",
+            en: "Projects"
         },
         "Contact": {
             cat: "Contacte",

@@ -29,7 +29,7 @@
 html,
 body {
     background-color: #fff;
-    font-size: 14px;
+    font-size: 15.5px;
     color: #797979;
     width: 100%;
     padding: 0;
@@ -1761,6 +1761,7 @@ Footer Section style
 
 .line-height {
     line-height: 1.7em;
+    margin-top: -2px;
 }
 
 .secondary-title {
