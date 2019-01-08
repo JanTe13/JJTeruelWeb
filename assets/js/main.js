@@ -312,6 +312,11 @@ jQuery(document).ready(function ($) {
             cat: " Agrupació de Disseny Industrial del Foment de les Arts i el Disseny (ADI-FAD)",
             es: " Agrupación de Diseño Industrial del Fomento de las Artes y el Diseño (ADI-FAD)",
             en: " Agrupació de Disseny Industrial del Foment de les Arts i el Disseny (ADI-FAD)"
+        },
+        "Address": {
+            cat: "Carrer Còrsega, 103-105",
+            es: "Calle Córsega, 103-105",
+            en: "Còrsega Street, 103-105"
         }
     };
 

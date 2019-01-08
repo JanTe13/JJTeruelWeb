@@ -453,6 +453,9 @@ Extra height css
 .m-l-15{
     margin-left: 15px; 
 }
+.m-top-5 {
+    margin-top: 5px;
+}
 .m-top-10 {
     margin-top: 10px;
 }
@@ -796,7 +799,6 @@ Home Section style
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    height: 1008px;
 }
 .main_home{
     overflow: hidden;
@@ -921,34 +923,7 @@ FAQ Page
     padding: 25px;
     color:#4a4a4a;
 }
-
-
 /*
-Video Section style
-======================*/
-.video{
-    background: url(../images/background/video.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
-.main_video{
-    display: block;
-    /*z-index: 2;*/
-    /*position: relative;*/
-}
-.main_video i,
-.main_video span.fa,
-.main_video span.icon{
-    color:#fff;
-    font-size:3rem;
-    border:2px solid #fff;
-    width:80px;
-    height: 80px;
-    line-height: 80px;
-    border-radius: 50%;
-    position: relative;
-}
-
 
 /*
 Featured section style
@@ -1038,25 +1013,6 @@ service section style
 }
 .service_item h6{}
 .service_item p{}
-
-
-/*
-Impress section style
-========================*/
-
-.impress{
-    background:url(../images/background/work-together.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
-.main_impress h2{
-    font-size:2.286rem
-}
-.impress_btns .btn{
-    padding: 1rem 4rem;
-}
-
-
 
 /*
 Portfolio section style
@@ -1176,54 +1132,6 @@ Skill Section style
     margin: 20px auto;
 }
 
-
-/*
-Testimonial Section style
-=======================*/
-.testimonial{
-    background: url(../images/background/testimonial.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
-.main_testimonial{
-    position: relative;
-    z-index: 1;
-}
-.main_testimonial .testimonial_slid{
-    width:90%;
-    display: block;
-    margin: 0 auto;
-}
-.main_testimonial .testimonial_item{
-    width:90%;
-    margin: 0 auto;
-}
-.main_testimonial .testimonial_slid .slick-arrow{
-    border:1px solid #fff;
-    width:45px;
-    height: 45px;
-    line-height:  45px;
-    text-align: center;
-    color:#fff;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-}
-.main_testimonial .testimonial_slid .slick-arrow.nextprevleft{
-    float: left;
-    top:20px;
-    left:-6%;
-}
-.testimonial_slid .slick-arrow.nextprevright{
-    float: right;
-    top:-130px;
-    right:-6%;
-}
-.main_testimonial .testimonial_item .test_authour i{
-    color:#ffbf00;
-}
-
-
 /*
 Pricing Section style
 =======================*/
@@ -1311,32 +1219,6 @@ Brand Section style
 }
 
 /*
-Subscribe Section style
-=====================*/
-.subscribe{
-    background: url(../images/background/subscribe.jpg) no-repeat center center;
-    background-size: cover;
-    position: relative;
-}
-.main_subscribe{
-    width:100%;
-    display: block;
-}
-.main_subscribe .subscribe_btns .form-group{
-    width:60%;
-    display: inline-block;
-}
-.main_subscribe .subscribe_btns .form-group #inputEmail2{
-    width:100%;
-    background-color: transparent;
-    color:#fff;
-}
-.main_subscribe .subscribe_btns button.btn{
-    /*width:15%;*/
-}
-
-
-/*
 Blog Section style
 =====================*/
 .blog_item{
@@ -1369,42 +1251,6 @@ Blog Section style
     color:#666666;
     padding: 5px;
 }
-
-
-/*
-Maps Section style
-=====================*/
-
-.main_maps{
-    background: url(../images/maps.jpg) no-repeat center center;
-    position: relative;
-    width:100%;
-    overflow: hidden;
-}
-
-.maps_text{
-    position: relative;
-    z-index: 1;
-}
-.maps_text h3{
-    top:20%;
-    position: relative;
-    margin-top: 95px;
-}
-.maps_text h3 i{
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 50%;
-    background-color: #ff6863;
-    font-size: 1rem;
-    display: inline-block;
-    top: -5px;
-    position: relative;
-    margin-left: 10px;
-}
-
-
 
 /*
 Contact Section style
@@ -1545,12 +1391,10 @@ Footer Section style
 
 .qualifications {
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .awards {
     margin-bottom: 10px;
-    text-align: justify;
 }
 
 .qualifications div, .awards div {
