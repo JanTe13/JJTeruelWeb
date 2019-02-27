@@ -317,6 +317,46 @@ jQuery(document).ready(function ($) {
             cat: "Carrer Còrsega, 103-105",
             es: "Calle Córsega, 103-105",
             en: "Còrsega Street, 103-105"
+        },
+        "Aventura Taula": {
+            cat: "Làmpara de taula AVENTURA",
+            es: "Lámpara de mesa AVENTURA",
+            en: "AVENTURA table lamp"
+        },
+        "Tamburet Sellex": {
+            cat: "Tamburet Club Sellex",
+            es: "Taburete Club Sellex",
+            en: "Sellex Club stool "
+        },
+        "Aventura Treball": {
+            cat: "Làmpara de treball AVENTURA",
+            es: "Lámpara de trabajo AVENTURA",
+            en: "AVENTURA work lamp"
+        },
+        "Moble Aries": {
+            cat: "Moble Aries",
+            es: "Mueble Aries",
+            en: "Aries fitment"
+        },
+        "Diagonal": {
+            cat: "Làmpara Diagonal",
+            es: "Lámpara Diagonal",
+            en: "Diagonal lamp"
+        },
+        "Cadira Traviesa": {
+            cat: "Cadira Traviesa",
+            es: "Silla Traviesa",
+            en: "Traviesa chair"
+        },
+        "Moble Hemicicle": {
+            cat: "Moble Hemicicle",
+            es: "Mueble Hemiciclo",
+            en: "Hemiciclo fitment"
+        },
+        "Banc Kioto": {
+            cat: "Banc Kioto",
+            es: "Banco Kioto",
+            en: "Kioto bench"
         }
     };
 
