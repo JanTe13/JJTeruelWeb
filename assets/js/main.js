@@ -199,9 +199,9 @@ jQuery(document).ready(function ($) {
             en: "Language"
         },
         "Jobs": {
-            cat: "Dissenyador industrial / Arquitecte / Paisatgista",
-            es: "Diseñador industrial / Arquitecto / Paisagista",
-            en: "Industrial designer / Architect / Landscape architect"
+            cat: "Dissenyador industrial | Arquitecte | Paisatgista",
+            es: "Diseñador industrial | Arquitecto | Paisagista",
+            en: "Industrial designer | Architect | Landscape architect"
         },
         "Description 1": {
             cat: "(Barcelona 1952) és paisatgista, arquitecte i dissenyador industrial. Des de l'any 1984 dirigeix el seu propi estudi de disseny, arquitectura i paisatgisme amb una àmplia cartera de clients tant nacionals com internacionals, i una trajectòria reconeguda amb diversos premis i distincions, i referenciada en múltiples publicacions.",
