@@ -183,6 +183,11 @@ jQuery(document).ready(function ($) {
             es: "Inicio",
             en: "Home"
         },
+        "Who": {
+            cat: "Qui sóc",
+            es: "Quién soy",
+            en: "Who I am"
+        },
         "Portfolio": {
             cat: "Projectes",
             es: "Proyectos",
